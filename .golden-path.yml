@@ -1,0 +1,23 @@
+# The answers this repo was rendered with (DEVOPS-CANARY/platform-golden-path,
+# templates/app-repo). Copier reads them for `copier update`; don't edit by hand.
+_commit: v1
+_src_path: gh:DEVOPS-CANARY/platform-golden-path
+app: todo
+backend: not-needed
+backend_repository: DEVOPS-CANARY/todo-backend
+chart_version: 0.8.0
+frontend: nextjs
+frontend_repository: DEVOPS-CANARY/todo-frontend
+gitops_repo: DEVOPS-CANARY/platform-gitops
+host_domain: local
+layout: root
+needs_kafka: false
+needs_postgres: false
+needs_redis: false
+node_version: '22'
+owner: princebabou
+package_manager: yarn
+pipeline_version: v1
+registry: ghcr.io/devops-canary
+repository: DEVOPS-CANARY/todo-frontend
+template: app-repo
